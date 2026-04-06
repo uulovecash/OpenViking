@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "telegram": {
+    "allowed_chat_ids": [
+      6906214576
+    ],
+    "admin_chat_ids": [
+      6906214576
+    ],
+    "admin_commands": [
+      "/run",
+      "/status",
+      "/help",
+      "/approve",
+      "/reject",
+      "/cleanup",
+      "/config"
+    ],
+    "user_commands": [
+      "/run",
+      "/status",
+      "/help"
+    ],
+    "reject_unknown_chat": true,
+    "reject_non_admin_for_admin_commands": true
+  }
+}
